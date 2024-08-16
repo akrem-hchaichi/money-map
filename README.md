@@ -1,7 +1,5 @@
 <h1 align="center" id="title">Money App</h1>
 
-<p align="center"><img src="" alt="project-image"></p>
-
 <p id="description">This project is designed to help you manage your expenses efficiently using a modern MERN stack and GraphQL.</p>
 
 <h2>🚀 Demo</h2>
