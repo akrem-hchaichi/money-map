@@ -3,7 +3,7 @@ import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import TransactionPage from "./pages/TransactionPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import { HomePage } from "./pages/HomePage";
+import HomePage from "./pages/HomePage";
 import Header from "./components/ui/Header";
 
 export default function App() {
