@@ -1,5 +1,6 @@
 <h1 align="center" id="title">Money App</h1>
 
+
 <p id="description">This project is designed to help you manage your expenses efficiently using a modern MERN stack and GraphQL.</p>
 
 <h2>🚀 Demo</h2>
@@ -25,22 +26,28 @@ Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Setup .env file</p>
+<p>1. Clone Project</p>
 
 ```
-MONGO_URI=... SESSION_SECRET=...
+git clone https://github.com/akrem-hchaichi/money-map.git
 ```
 
-<p>2. Build the app</p>
+<p>2. Setup .env file</p>
+
+```
+MONGO_URI=...  SESSION_SECRET=...
+```
+
+<p>3. Build the app</p>
 
 ```
 npm run build
 ```
 
-<p>3. Start the app</p>
+<p>4. Start the app</p>
 
 ```
- npm run  start
+ npm run start
 ```
 
   
