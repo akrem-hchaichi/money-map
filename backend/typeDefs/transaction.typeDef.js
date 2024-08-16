@@ -14,6 +14,7 @@ const transactionTypeDef = `#graphql
   type Query {
     transactions: [Transaction!]
     transaction(transactionId:ID!): Transaction
+    categoryStatistics: [CategoryStatistics!]
   }
 
   type Mutation {
@@ -30,7 +31,7 @@ const transactionTypeDef = `#graphql
     date: String!
     location: String
   }
-
+ 
   input UpdateTransactionInput {
     transactionId: ID!
     description: String
@@ -40,6 +41,15 @@ const transactionTypeDef = `#graphql
     location: String
     date: String
   }
+
+  type CategoryStatistics {
+  category: String!
+  totalAmount: Float!
+  }
+
+
 `;
+
+
 
 export default transactionTypeDef;
